@@ -5,12 +5,11 @@ channels:
 dependencies:
   - anyio=3.7.1
   - bzip2=1.0.8
-  - ca-certificates=2023.5.7
-  - click=8.0.4
+  - ca-certificates=2023.05.30
   - colorama=0.4.6
   - exceptiongroup=1.1.2
   - fastapi=0.100.0
-  - h11=0.12.0
+  - greenlet=2.0.1
   - idna=3.4
   - libffi=3.4.4
   - openssl=3.0.9
@@ -19,15 +18,50 @@ dependencies:
   - python=3.10.12
   - setuptools=67.8.0
   - sniffio=1.3.0
+  - sqlalchemy=1.4.39
   - sqlite=3.41.2
   - starlette=0.27.0
   - tk=8.6.12
   - typing-extensions=4.7.1
   - typing_extensions=4.7.1
-  - tzdata=2023c
   - uvicorn=0.20.0
   - vc=14.2
   - vs2015_runtime=14.27.29016
   - wheel=0.38.4
   - xz=5.4.2
   - zlib=1.2.13
+  - pip:
+      - alembic==1.11.1
+      - amqp==5.1.1
+      - billiard==4.1.0
+      - celery==5.3.1
+      - certifi==2023.7.22
+      - click==8.1.6
+      - click-didyoumean==0.3.0
+      - click-plugins==1.1.1
+      - click-repl==0.3.0
+      - ecdsa==0.18.0
+      - h11==0.14.0
+      - httpcore==0.17.3
+      - httpx==0.24.1
+      - iniconfig==2.0.0
+      - kombu==5.3.1
+      - mako==1.2.4
+      - markupsafe==2.1.3
+      - packaging==23.1
+      - pluggy==1.2.0
+      - prompt-toolkit==3.0.39
+      - psycopg2==2.9.6
+      - pyasn1==0.5.0
+      - pytest==7.4.0
+      - python-dateutil==2.8.2
+      - python-dotenv==1.0.0
+      - python-jose==3.3.0
+      - raven==6.10.0
+      - rsa==4.9
+      - six==1.16.0
+      - tenacity==8.2.2
+      - tomli==2.0.1
+      - tzdata==2023.3
+      - vine==5.0.0
+      - wcwidth==0.2.6
